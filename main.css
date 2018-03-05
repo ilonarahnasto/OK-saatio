@@ -1,0 +1,13 @@
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+span.centered {
+  margin: auto;
+}
+
+h1.main {
+  color: black;
+  text-shadow: 0.5px 0.5px 2px black; /*#ad080e;*/
+}
