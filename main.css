@@ -10,4 +10,5 @@ span.centered {
 h1.main {
   color: black;
   text-shadow: 0.5px 0.5px 2px black; /*#ad080e;*/
+  font-size: 2em;
 }
