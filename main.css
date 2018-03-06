@@ -1,7 +1,21 @@
 body, html {
   height: 100%;
-  display: grid;
-  background-color: black;
+  width:100%;
+  background-color: black !important;
+}
+
+body {
+  display: none;
+}
+
+img.logo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 303px;
+   margin-top: -151.1px; /* Half the height */
+   margin-left: -250px; /* Half the width */
 }
 
 span.centered {

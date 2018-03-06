@@ -1,12 +1,10 @@
 $(document).ready(function(){
 
   var myFade = function() {
-    $("#fadeout").fadeOut(1000, function() {
-      $("#fadein").fadeIn(1500, function() {
+    $("body").fadeIn(1800, function() {
 
-      });
     });
   }
-  window.setTimeout(myFade, [2000]);
+  window.setTimeout(myFade, [800]);
 
 });
