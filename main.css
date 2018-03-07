@@ -8,14 +8,30 @@ body {
   display: none;
 }
 
+div.first {
+  height: 500px;
+}
+
 img.logo {
    position: absolute;
    top: 50%;
    left: 50%;
    width: 40vw;
    height: 24.2vw;
-   margin-top: -12.1vw; /*-151.1px is half the height */
+   margin-top: -12.1vw; /* Half the height */
    margin-left: -20vw; /* Half the width */
+}
+
+@media screen and (max-width: 420px) {
+  img.logo {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 50vw;
+     height: 30vw;
+     margin-top: -15vw; /* Half the height */
+     margin-left: -25vw; /* Half the width */
+  }
 }
 
 span.centered {
