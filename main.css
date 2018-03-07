@@ -12,22 +12,10 @@ img.logo {
    position: absolute;
    top: 50%;
    left: 50%;
-   width: 500px;
-   height: 303px;
-   margin-top: -151.1px; /* Half the height */
-   margin-left: -250px; /* Half the width */
-}
-
-@media screen and (max-width: 420px) {
-  img.logo {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     width: 300px;
-     height: 180px;
-     margin-top: -90px; /* Half the height */
-     margin-left: -150px; /* Half the width */
-  }
+   width: 40vw;
+   height: 24.2vw;
+   margin-top: -12.1vw; /*-151.1px is half the height */
+   margin-left: -20vw; /* Half the width */
 }
 
 span.centered {
