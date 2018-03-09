@@ -24,7 +24,7 @@ img.logo {
 }
 
 div.img {
-  height: 28vw;
+  height: 29vw;
 }
 
 div.first {
@@ -52,15 +52,27 @@ div.nav {
   padding-left: 15vw;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 770px) {
   img.logo {
      position: absolute;
      top: 50%;
      left: 50%;
      width: 50vw;
      height: 30vw;
-     margin-top: -15vw; /* Half the height */
+     margin-top: -25vw; /* Half the height */
      margin-left: -25vw; /* Half the width */
+  }
+  div.img {
+    height: 30vw;
+    margin-bottom: 3vh;
+  }
+  div.nav {
+    padding-right: 22vw;
+    padding-left: 10vw;
+  }
+  div.top {
+    margin-top: 1.5vh;
+    text-align: right !important;
   }
 }
 
