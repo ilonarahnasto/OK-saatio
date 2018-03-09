@@ -17,6 +17,7 @@ img.logo {
    position: absolute;
    top: 50%;
    left: 50%;
+   /* ratio 1.6479468599 */
    width: 40vw;
    height: 24.2vw;
    margin-top: -12.1vw; /* Half the height */
@@ -57,22 +58,26 @@ div.nav {
      position: absolute;
      top: 50%;
      left: 50%;
-     width: 50vw;
-     height: 30vw;
-     margin-top: -25vw; /* Half the height */
-     margin-left: -25vw; /* Half the width */
+     /* ratio 1.6479468599 */
+     width: 64vw;
+     height: 38.8vw;
+     margin-top: -30vw; /* Half the height */
+     margin-left: -32vw; /* Half the width */
   }
   div.img {
-    height: 30vw;
+    height: 38.8vw;
     margin-bottom: 3vh;
   }
   div.nav {
-    padding-right: 22vw;
+    padding-right: 15vw;
     padding-left: 10vw;
   }
   div.top {
     margin-top: 1.5vh;
     text-align: right !important;
+  }
+  a {
+    font-size: 0.8em;
   }
 }
 
