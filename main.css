@@ -2,14 +2,15 @@ body, html {
   height: 100%;
   width: 100%;
   background-color: black !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 body {
   display: none;
 }
 
-div.first {
-  height: 500px;
+div.main {
+  height: 100%;
 }
 
 img.logo {
@@ -20,6 +21,35 @@ img.logo {
    height: 24.2vw;
    margin-top: -12.1vw; /* Half the height */
    margin-left: -20vw; /* Half the width */
+}
+
+div.img {
+  height: 28vw;
+}
+
+div.first {
+  /*padding-top: 36.2vh;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /*height: 300px;*/
+}
+
+div.nav a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+  color: white !important;
+}
+
+a:hover {
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+  text-decoration: none !important;
+}
+
+div.nav {
+  padding-right: 15vw;
+  padding-left: 15vw;
 }
 
 @media screen and (max-width: 420px) {
@@ -34,19 +64,13 @@ img.logo {
   }
 }
 
-span.centered {
-  margin: auto;
+div.section {
+  width: 100%;
+  height: 100%;
 }
 
 h1.main {
   color: black;
   text-shadow: 0.5px 0.5px 2px black; /*#ad080e;*/
   font-size: 2em;
-}
-
-div.second {
-  display: none;
-  height: 100%;
-  width: 100%;
-  background-color: #ad080e;
 }
