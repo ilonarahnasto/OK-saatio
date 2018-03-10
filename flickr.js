@@ -1,7 +1,7 @@
 var parameters = {
   "async": true,
   "crossDomain": true,
-  "url": "http://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=d94a18423a8d68cf3cab925bc8944aa7&user_id=56029449@N02&format=json&nojsoncallback=1",
+  "url": "https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&api_key=d94a18423a8d68cf3cab925bc8944aa7&user_id=56029449@N02&format=json&nojsoncallback=1",
   "method": "GET",
   "headers": {}
 }
