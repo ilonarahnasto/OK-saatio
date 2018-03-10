@@ -91,3 +91,10 @@ h1.main {
   text-shadow: 0.5px 0.5px 2px black; /*#ad080e;*/
   font-size: 2em;
 }
+
+img.flickr {
+  max-height: 20vh;
+  margin: 5px;
+  border-radius: 1px;
+  /*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.34);*/
+}
