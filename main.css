@@ -126,4 +126,48 @@ div.galleria {
   div.galleria {
     padding: 0px;
   }
+  img.saatio {
+    max-height: 40vh;
+  }
+}
+
+div.saatio {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  min-height: 100%;
+}
+
+div.saatio-img {
+  padding-bottom: 2vh;
+}
+
+img.saatio {
+  max-height: 14vw;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+
+img.saatio:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+h2.saatio {
+  padding-top: 10vh !important;
+  padding-bottom: 6vh !important;
+}
+
+h6 {
+  color: lightgrey !important;
+  padding-top: 1vw !important;
+}
+
+p {
+  color: grey !important;
+}
+
+@media screen and (max-width: 770px) {
+  img.saatio {
+    max-height: 30vh;
+  }
 }
