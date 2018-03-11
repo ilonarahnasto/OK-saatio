@@ -117,3 +117,10 @@ div.galleria {
   margin-left: 1vw;
   margin-right: 1vw;
 }
+
+@media screen and (max-width: 770px) {
+  img.flickr {
+    max-height: none;
+    max-width: 98%;
+  }
+}
