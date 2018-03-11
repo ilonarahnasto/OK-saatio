@@ -102,7 +102,7 @@ h2 {
 }
 
 img.flickr {
-  max-height: 22vw;
+  max-height: 21.5vw;
   max-width: 100%;
   margin-top: 0.2vw !important;
   margin-bottom: 0.2vw !important;
@@ -114,13 +114,16 @@ div.flickr-img {
 }
 
 div.galleria {
-  margin-left: 1vw;
-  margin-right: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 @media screen and (max-width: 770px) {
   img.flickr {
     max-height: none;
     max-width: 98%;
+  }
+  div.galleria {
+    padding: 0px;
   }
 }
