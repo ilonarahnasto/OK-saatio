@@ -18,9 +18,13 @@ $.ajax(parameters).done(function (data) {
     var divid2 = id + "-thumbnail";
     var $div2 = $( '<div id=' + divid2 + ' class="thumbnail"></div>' );
     $( '#' + divid1 + '' ).append( $div2 );
+    var aid = id + "-a";
+    var photoURL = "https://www.flickr.com/photos/155922632@N05/" + id + "/in/album-72157694335693125/"; //Only for OKAK album. Has to be changed when albums are added.
+    var $a = $( '<a id=' + aid + ' href=" ' + photoURL + '"></a>' );
+    $( '#' + divid2 + '' ).append( $a );
     var $newimg = $( '<img class="flickr" src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>' );
     //newdiv2 = document.createElement( "div" ), existingdiv1 = document.getElementById( "foo" );
-    $( '#' + divid2 + '' ).append( $newimg  );
+    $( '#' + aid + '' ).append( $newimg  );
     //$("#flickr").append('<img class="flickr" src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
   });
 });
