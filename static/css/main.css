@@ -150,9 +150,10 @@ div.saatio {
 }
 
 div.sector {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 11vw;
+  padding-right: 11vw;
   min-height: 100%;
+  padding-bottom: 10vh;
 }
 
 div.saatio-img {
@@ -160,7 +161,7 @@ div.saatio-img {
 }
 
 img.saatio {
-  max-height: 14vw;
+  max-height: 12vw;
   -webkit-transition: -webkit-transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
 }
@@ -194,4 +195,8 @@ div.arkkitehdiksi {
   padding-top: 8vh;
   padding-bottom: 8vh;
   min-height: 100vh;
+}
+
+div.saatiokuvaus {
+  padding-bottom: 4vh;
 }
