@@ -107,6 +107,15 @@ img.flickr {
   margin-top: 0.2vw !important;
   margin-bottom: 0.2vw !important;
   border-radius: 1px;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+img.flickr:hover {
+  filter: contrast(180%);
 }
 
 div.flickr-img {
@@ -129,9 +138,18 @@ div.galleria {
   img.saatio {
     max-height: 40vh;
   }
+  div.saatio-img h6 {
+    margin-top: 1vh;
+  }
 }
 
 div.saatio {
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  min-height: 100%;
+}
+
+div.sector {
   padding-left: 5vw;
   padding-right: 5vw;
   min-height: 100%;
@@ -152,10 +170,10 @@ img.saatio:hover {
   transform: rotate(360deg);
 }
 
-h2.saatio {
+/*h2.saatio {
   padding-top: 10vh !important;
   padding-bottom: 6vh !important;
-}
+}*/
 
 h6 {
   color: lightgrey !important;
@@ -170,4 +188,10 @@ p {
   img.saatio {
     max-height: 30vh;
   }
+}
+
+div.arkkitehdiksi {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  min-height: 100vh;
 }
