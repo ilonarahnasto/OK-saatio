@@ -9,6 +9,31 @@ body {
   display: none;
 }
 
+a.nav-link {
+  color: white !important;
+  padding-left: 3vw !important;
+}
+
+.dropdown-menu {
+  padding: none !important;
+  background-color: black !important;
+  border: none !important;
+}
+.dropdown-item{
+  color: white !important;
+  padding-top: 1vh !important;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+}
+
+.navbar {
+  z-index: 999 !important;
+  -webkit-backface-visibility: hidden !important;
+  top: inherit !important;
+}
+
 div.main {
   height: 100%;
 }
@@ -185,16 +210,31 @@ p {
   color: grey !important;
 }
 
+div.arkkitehdiksi {
+  padding-top: 30vh;
+  padding-bottom: 8vh;
+  min-height: 100vh;
+}
+
+#galleria {
+  padding-top: 4vh;
+}
+
+h2.galleria {
+  padding-bottom: 4vh;
+  padding-top: 0vh;
+}
+
 @media screen and (max-width: 770px) {
   img.saatio {
     max-height: 30vh;
   }
-}
-
-div.arkkitehdiksi {
-  padding-top: 8vh;
-  padding-bottom: 8vh;
-  min-height: 100vh;
+  div.arkkitehdiksi {
+    padding-top: 5vh;
+  }
+  div.saatio {
+    padding-top: 5vh;
+  }
 }
 
 div.saatiokuvaus {
