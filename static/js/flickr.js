@@ -23,8 +23,6 @@ $.ajax(parameters).done(function (data) {
     var $a = $( '<a id=' + aid + ' href=" ' + photoURL + '"></a>' );
     $( '#' + divid2 + '' ).append( $a );
     var $newimg = $( '<img class="flickr" src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>' );
-    //newdiv2 = document.createElement( "div" ), existingdiv1 = document.getElementById( "foo" );
     $( '#' + aid + '' ).append( $newimg  );
-    //$("#flickr").append('<img class="flickr" src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
   });
 });

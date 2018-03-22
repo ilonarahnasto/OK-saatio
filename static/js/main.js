@@ -20,18 +20,4 @@ $(document).ready(function(){
     }
   });
 
-$(window).scroll(function() {
-    var arkkitehdiksiheight = $('#static-nav').offset().top;
-    var currentheight = document.documentElement.scrollTop;
-    if (arkkitehdiksiheight < currentheight) {
-      $("#nav").fadeIn(300, function() {
-        console.log("is anything happening");
-      });
-    } else if (arkkitehdiksiheight > currentheight) {
-      $("#nav").fadeOut(300, function() {
-        console.log("something is happening");
-      });
-    }
-  });
-
 });
