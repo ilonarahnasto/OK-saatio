@@ -1,4 +1,27 @@
-//This shit aint working well enough
+// This shit aint working well enough
+// Here's the html
+
+/*
+
+<nav id="nav" class="navbar navbar-expand-lg position-fixed" style="display: none;">
+  <div class="navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fab fa-accessible-icon"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#arkkitehdiksi">Arkkitehdiksi</a>
+          <a class="dropdown-item" href="#saatio">Säätiö</a>
+          <a class="dropdown-item" href="#galleria">Galleria</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+*/
+
 
 $(window).scroll(function() {
     var arkkitehdiksiheight = $('#static-nav').offset().top;

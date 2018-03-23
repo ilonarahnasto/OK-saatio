@@ -152,25 +152,9 @@ div.galleria {
   padding-right: 2vw;
 }
 
-@media screen and (max-width: 770px) {
-  img.flickr {
-    max-height: none;
-    max-width: 98%;
-  }
-  div.galleria {
-    padding: 0px;
-  }
-  img.saatio {
-    max-height: 40vh;
-  }
-  div.saatio-img h6 {
-    margin-top: 1vh;
-  }
-}
-
 div.saatio {
-  padding-top: 2vh;
-  padding-bottom: 3vh;
+  padding-top: 8vw;
+  padding-bottom: 4vw;
   min-height: 100%;
 }
 
@@ -181,8 +165,12 @@ div.sector {
   padding-bottom: 10vh;
 }
 
+div.saatio-kuvat {
+  padding-top: 16vh;
+}
+
 div.saatio-img {
-  padding-bottom: 2vh;
+  padding-bottom: 3vh;
 }
 
 img.saatio {
@@ -196,10 +184,24 @@ img.saatio:hover {
   transform: rotate(360deg);
 }
 
-/*h2.saatio {
-  padding-top: 10vh !important;
-  padding-bottom: 6vh !important;
-}*/
+@media screen and (max-width: 770px) {
+  img.flickr {
+    max-height: none;
+    max-width: 98%;
+  }
+  div.galleria {
+    padding: 0px;
+  }
+  img.saatio {
+    max-height: 35vh;
+  }
+  div.saatio-img h6 {
+    margin-top: 2vh;
+  }
+  div.saatio-kuvat {
+    padding-top: 4vh;
+  }
+}
 
 h6 {
   color: lightgrey !important;
