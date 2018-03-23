@@ -153,7 +153,7 @@ div.galleria {
 }
 
 div.saatio {
-  padding-top: 8vw;
+  padding-top: 6vw;
   padding-bottom: 4vw;
   min-height: 100%;
 }
@@ -209,7 +209,11 @@ h6 {
 }
 
 p {
-  color: grey !important;
+  color: grey; /* !important;*/
+}
+
+blockquote p {
+  color: lightgrey;
 }
 
 div.arkkitehdiksi {
