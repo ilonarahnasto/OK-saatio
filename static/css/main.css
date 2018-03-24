@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  display: none;
+  /*display: none;*/
 }
 
 a.nav-link {
@@ -104,6 +104,14 @@ div.nav {
   a {
     font-size: 0.8em;
   }
+}
+
+a.ilmo {
+  color: white;
+}
+
+a.ilmo:hover {
+  color: lightgrey;
 }
 
 div.section {

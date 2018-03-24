@@ -2,7 +2,12 @@
 // Here's the html
 
 /*
-
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
 <nav id="nav" class="navbar navbar-expand-lg position-fixed" style="display: none;">
   <div class="navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -29,7 +34,7 @@ $(window).scroll(function() {
     var width = $( window ).width();
     var position = (arkkitehdiksiheight < currentheight); //if true -> fadeIn, if false -> fadeout
 
-    if (width >= 770) {
+    //if (width >= 770) {
       if (position) {
         $("#nav").fadeIn(300, function() {
 
@@ -39,8 +44,8 @@ $(window).scroll(function() {
 
         });
       }
-    }
-
+    //}
+/*
     if (width < 770) {
       var visible = false;
 
@@ -68,6 +73,6 @@ $(window).scroll(function() {
         }
         lastScrollTop = st;
       });
-    }
+    }*/
 
   });
