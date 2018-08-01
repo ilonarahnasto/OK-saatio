@@ -42,15 +42,15 @@ img.logo {
    position: absolute;
    top: 50%;
    left: 50%;
-   /* ratio 1.6479468599 */
-   width: 40vw;
-   height: 24.2vw;
-   margin-top: -12.1vw; /* Half the height */
-   margin-left: -20vw; /* Half the width */
+   /* ratio 1.414860681114551 */
+   width: 30vw;
+   height: 21.2vw;
+   margin-top: -10.6vw; /* Half the height */
+   margin-left: -15vw; /* Half the width */
 }
 
 div.img {
-  height: 29vw;
+  height: 33vw;
 }
 
 div.first {
@@ -83,18 +83,18 @@ div.nav {
      position: absolute;
      top: 50%;
      left: 50%;
-     /* ratio 1.6479468599 */
-     width: 64vw;
-     height: 38.8vw;
-     margin-top: -30vw; /* Half the height */
-     margin-left: -32vw; /* Half the width */
+     /* ratio 1.414860681114551 */
+     width: 52vw;
+     height: 36.8vw;
+     margin-top: -28vw; /* Half the height */
+     margin-left: -26vw; /* Half the width */
   }
   div.img {
-    height: 38.8vw;
-    margin-bottom: 3vh;
+    height: 36.8vw;
+    margin-bottom: 10vh;
   }
   div.nav {
-    padding-right: 15vw;
+    padding-right: 20vw;
     padding-left: 10vw;
   }
   div.top {
