@@ -225,7 +225,7 @@ blockquote p {
 }
 
 div.arkkitehdiksi {
-  padding-top: 30vh;
+  padding-top: 40vh;
   padding-bottom: 8vh;
   min-height: 100vh;
 }
@@ -244,7 +244,7 @@ h2.galleria {
     max-height: 30vh;
   }
   div.arkkitehdiksi {
-    padding-top: 5vh;
+    padding-top: 35vh;
   }
   div.saatio {
     padding-top: 5vh;
